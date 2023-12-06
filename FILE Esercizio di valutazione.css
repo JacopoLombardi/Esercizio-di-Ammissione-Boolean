@@ -1,0 +1,114 @@
+*{margin: 0;}     /*-----resetto tutti i margini-----*/
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+/*-----modifiche al logo-----*/
+.logo{
+    width: 200px;
+    padding-top: 150px;
+    margin: auto;
+    display: block;
+}
+
+/*-----modifiche alla parte alta della pagina-----*/    
+header > h1{
+    margin: auto;
+    width: 420px;
+    
+    font-size: 200%;
+    font-style: normal;
+    color: lime;
+}
+
+/*-----modifiche ai pulsanti di navigazione-----*/
+nav{
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lime;  
+}
+
+/*-----modifiche alla parte principale della pagina-----*/
+main{
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+}
+
+/*-----SEZIONE NUMERO 1-----*/
+.sezione1 > h2{
+    font-style: normal;
+}
+
+.sezione1 > p{
+    margin-top: 5px;
+}
+
+.sezione1 > h3{
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rectangle1{
+    width: 350px;
+    height: 30px;
+    background: orange;
+    border-radius: 5px;
+  }
+
+
+/*-----SEZIONE NUMERO 2-----*/
+.sezione2 > h2{
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.sezione2 > p{
+    margin-top: 5px;
+}
+
+.sezione2 > h3{
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rectangle2{
+    width: 600px;
+    height: 30px;
+    background: limegreen;
+    border-radius: 5px;
+  }
+
+
+/*-----SEZIONE NUMERO 3-----*/
+.sezione3 > h2{
+    font-style: normal;
+    margin-top: 30px;
+}
+
+.sezione3 > p{
+    margin-top: 5px;
+}
+
+.sezione3 > h3{
+    font-size: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rectangle3{
+    width: 150px;
+    height: 30px;
+    background: red;
+    border-radius: 5px;
+  }
+
+
